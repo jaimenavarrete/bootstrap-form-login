@@ -22,6 +22,17 @@ body {
     background: var(--dark-x);
 }
 
+.img-1,
+.img-2 {
+    background: url('./../img/image-1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('./../img/image-2.jpg');
+}
+
 .form-control,
 .btn {
     color: var(--light);
