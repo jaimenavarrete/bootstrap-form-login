@@ -1,0 +1,35 @@
+:root {
+    --dark: #333;
+    --dark-x: #404040;
+    --light: #FFFFFF;
+}
+
+body {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 300;
+    color: var(--light);
+}
+
+.btn-light {
+    background: var(--light) !important;
+}
+
+.bg-dark {
+    background: var(--dark) !important;
+}
+
+.bg-dark-x {
+    background: var(--dark-x);
+}
+
+.form-control,
+.btn {
+    color: var(--light);
+    min-height: 3.125rem;
+    font-weight: 600;
+    line-height: initial;
+}
+
+.logo {
+    width: 50px;
+}
